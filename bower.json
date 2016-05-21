@@ -8,6 +8,10 @@
   "main": "",
   "license": "UNLICENSED",
   "private": true,
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
