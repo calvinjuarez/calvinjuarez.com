@@ -2,9 +2,14 @@
 img/*
 !img/*.svg
 
+# ignore dev directories & files
+node_modules/
+bower_components/
+*.md.html
+
 # ignore archive directory
 .archive/
 
-# ignore system files and directories
+# ignore system directories & files
 cgi-bin/
 .DS_Store
