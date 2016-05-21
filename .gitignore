@@ -1,0 +1,10 @@
+# ignore images except svgs
+img/*
+!img/*.svg
+
+# ignore archive directory
+.archive/
+
+# ignore system files and directories
+cgi-bin/
+.DS_Store
