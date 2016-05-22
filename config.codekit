@@ -1444,6 +1444,15 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/js\/lib\/bootstrap\/affix.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1586,6 +1595,60 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
+		},
+	"\/kit\/component\/work-img.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/component\/work-img.kit",
+		"outputAbbreviatedPath": "\/kit\/component\/work-img.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/inc\/footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/inc\/footer.kit",
+		"outputAbbreviatedPath": "\/kit\/inc\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/inc\/head.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/inc\/head.kit",
+		"outputAbbreviatedPath": "\/kit\/inc\/head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/inc\/header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/inc\/header.kit",
+		"outputAbbreviatedPath": "\/kit\/inc\/header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/inc\/scripts.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/inc\/scripts.kit",
+		"outputAbbreviatedPath": "\/kit\/inc\/scripts.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/index.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/index.kit",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
 		},
 	"\/package.json": {
 		"fileType": 524288,
