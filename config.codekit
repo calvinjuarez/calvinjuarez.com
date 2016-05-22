@@ -1863,12 +1863,34 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
+	"\/js\/lib\/jquery.data-graph.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/lib\/jquery.data-graph.js",
+		"outputAbbreviatedPath": "\/js\/lib\/jquery.data-graph.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
 	"\/js\/lib\/jquery.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/js\/lib\/jquery.min.js",
 		"outputAbbreviatedPath": "\/js\/lib\/jquery.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/js\/lib\/mustache.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/js\/lib\/mustache.js",
+		"outputAbbreviatedPath": "\/js\/lib\/mustache.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
