@@ -1,0 +1,20 @@
+//
+//  The Site Color Scheme - theme.less
+//
+
+
+a {
+	.link-color(@main, @accent);
+}
+
+.header {
+	&:extend(.clearfix all);
+	&:extend(.jumbotron all);
+	padding: 1em;
+	margin-bottom: 1em;
+	color: @white;
+	background-color: @main;
+	a {
+		.link-color(@accent, @white);
+	}
+}

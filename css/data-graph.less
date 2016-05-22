@@ -1,0 +1,117 @@
+//
+//  data-graph.less
+//
+
+
+//! Variables
+//! --------------------------------------------------
+
+@good:  #5ad;
+@bad:   #acce55;
+
+@gradeCount: 5;
+
+
+//! Mixins
+//! --------------------------------------------------
+
+.make-grades (@maxColor:#acce55; @minColor:#e66; @count) {
+	.grades(@i) when (@i =< @count) {
+		// note that Less' mix() function treats `-X` mix percentage as `0` (e.g. `mix(@maxColor,@minColor,-25)` => `mix(@maxColor,@minColor,0)`)
+		.grade-@{i} {
+			background-color: mix(@maxColor,@minColor,((@i - 1) * 100 / (@count - 1)));
+			// &:hover {
+			// 	background-color: darken(mix(@maxColor,@minColor,((@i - 1) * 100 / (@count - 1))),10);
+			// }
+		}
+		.grades((@i + 1));
+	}
+	.grades(0);
+}
+
+
+//! Theme
+//! --------------------------------------------------
+
+.graph,
+.legend {
+	.make-grades(@good; @bad; @gradeCount);
+	// @media print {
+	// 	.make-grades(#333; #aaa; @gradeCount);
+	// }
+}
+
+
+
+//! Graph
+//! --------------------------------------------------
+
+.graph {
+	list-style: none;
+	padding-left: 0;
+}
+
+// Types
+// ----------
+.graph-bar {
+	.bar {
+		margin-bottom: 3px;
+		padding: 5px 4px 3px;
+		border-radius: 2px 16px 16px 2px;
+	}
+	.label {
+		white-space: nowrap;
+		color: #fff;
+	}
+}
+.graph-dot {
+	li {
+		position: relative;
+	}
+	.dot {
+		display: inline-block;
+		height: 1em;
+		width: 1em;
+		border-radius: 16px;
+	}
+}
+
+
+//! Legend
+//! --------------------------------------------------
+
+.legend {
+	// micro clearfix hack
+	&:before, &:after {
+		content: " "; display: table;
+	}
+	&:after {
+		clear: both;
+	}
+	li {
+		white-space: nowrap;
+		font-size: 0.7em;
+		margin-right: 10px;
+		@media (min-width: 768px) {
+			float: left;
+		}
+	}
+	.swatch, .label {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.swatch {
+		height: 1.5em;
+		width: 1.5em;
+		margin-right: 5px;
+		white-space: normal;
+		border-radius: 16px;
+	}
+	@media (max-width: 767px) {
+		display: none;
+	}
+}
+.legend-content {
+	list-style: none;
+	padding-left: 0;
+}

@@ -1,0 +1,38 @@
+//
+//  Complete, Assembled Entities - assemblies.less
+//
+
+
+.connect {
+	.link-list();
+	.link-list-horizontal();
+}
+.thumbnail {
+	margin-bottom: 2em;
+	h1, h2, h3, h4, h5, h6 {
+		small {
+			display: block;
+			font-style: italic;
+			line-height: 2;
+		}
+	}
+	a {
+		border: none;
+		padding: 0;
+		img {
+			margin-bottom: 1em;
+			border: 1px solid @white-dark;
+			border-radius: 3px;
+			transition: box-shadow .25s ease;
+		}
+		&:hover {
+			text-decoration: none;
+			img {
+				box-shadow: 0 0 10px 0 fade(@black,10);
+			}
+		}
+	}
+	p {
+		display: none;
+	}
+}
