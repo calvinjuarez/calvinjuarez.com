@@ -3,6 +3,7 @@ img/*
 !img/*.svg
 
 # ignore dev directories & files
+.dev/
 node_modules/
 bower_components/
 *.md.html
