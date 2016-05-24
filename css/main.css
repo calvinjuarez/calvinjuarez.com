@@ -2058,6 +2058,7 @@ h6 small,
 .thumbnail a {
   border: none;
   padding: 0;
+  color: inherit;
 }
 .thumbnail a img {
   margin-bottom: 1em;
@@ -2067,13 +2068,11 @@ h6 small,
   transition: box-shadow 0.25s ease;
 }
 .thumbnail a:hover {
+  color: #ff8066;
   text-decoration: none;
 }
 .thumbnail a:hover img {
   box-shadow: 0 0 10px 0 rgba(40, 40, 40, 0.1);
-}
-.thumbnail p {
-  display: none;
 }
 a {
   color: #ff8066;

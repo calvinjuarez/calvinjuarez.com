@@ -19,6 +19,7 @@
 	a {
 		border: none;
 		padding: 0;
+		color: inherit;
 		img {
 			margin-bottom: 1em;
 			border: 1px solid @white-dark;
@@ -26,13 +27,11 @@
 			transition: box-shadow .25s ease;
 		}
 		&:hover {
+			color: @main;
 			text-decoration: none;
 			img {
 				box-shadow: 0 0 10px 0 fade(@black,10);
 			}
 		}
-	}
-	p {
-		display: none;
 	}
 }
