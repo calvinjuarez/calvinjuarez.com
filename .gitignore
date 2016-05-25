@@ -1,0 +1,16 @@
+# ignore images except svgs
+img/*
+!img/*.svg
+
+# ignore dev directories & files
+.dev/
+node_modules/
+bower_components/
+*.md.html
+
+# ignore archive directory
+.archive/
+
+# ignore system directories & files
+cgi-bin/
+.DS_Store

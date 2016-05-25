@@ -1,0 +1,19 @@
+{
+  "name": "calvinjuarez.com",
+  "version": "0.0.0",
+  "description": "Codebase for CalvinJuarez.com.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinjuarez/calvinjuarez.com.git"
+  },
+  "author": "Calvin Juárez <calvin.juarez@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/calvinjuarez/calvinjuarez.com/issues"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-copy": "^1.0.0"
+  }
+}

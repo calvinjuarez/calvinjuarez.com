@@ -1,0 +1,34 @@
+/*
+ *  House Mixins - mixins.less
+ */
+
+
+
+
+.link-color(@color1; @color2) {
+	color: @color1;
+	&:hover {
+		color: @color2;
+	}
+}
+.link-color(@color2) {
+	&:hover {
+		color: @color2;
+	}
+}
+
+// Link List
+.link-list() {
+	.list-unstyled();;
+}
+.link-list-horizontal() {
+	li {
+		display: inline-block;
+	}
+	li a {
+		margin-left: 1.2em;
+	}
+	li:first-child a {
+		margin-left: 0px;
+	}
+}

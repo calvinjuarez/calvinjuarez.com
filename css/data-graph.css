@@ -1,0 +1,86 @@
+.graph .grade-0,
+.legend .grade-0 {
+  background-color: #c2d733;
+}
+.graph .grade-1,
+.legend .grade-1 {
+  background-color: #acce55;
+}
+.graph .grade-2,
+.legend .grade-2 {
+  background-color: #96c577;
+}
+.graph .grade-3,
+.legend .grade-3 {
+  background-color: #81bc99;
+}
+.graph .grade-4,
+.legend .grade-4 {
+  background-color: #6bb3bb;
+}
+.graph .grade-5,
+.legend .grade-5 {
+  background-color: #55aadd;
+}
+.graph {
+  list-style: none;
+  padding-left: 0;
+}
+.graph-bar .bar {
+  margin-bottom: 3px;
+  padding: 5px 4px 3px;
+  border-radius: 2px 16px 16px 2px;
+}
+.graph-bar .label {
+  white-space: nowrap;
+  color: #fff;
+}
+.graph-dot li {
+  position: relative;
+}
+.graph-dot .dot {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  border-radius: 16px;
+}
+.legend:before,
+.legend:after {
+  content: " ";
+  display: table;
+}
+.legend:after {
+  clear: both;
+}
+.legend li {
+  white-space: nowrap;
+  font-size: 0.7em;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .legend li {
+    float: left;
+  }
+}
+.legend .swatch,
+.legend .label {
+  display: inline-block;
+  vertical-align: middle;
+}
+.legend .swatch {
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 5px;
+  white-space: normal;
+  border-radius: 16px;
+}
+@media (max-width: 767px) {
+  .legend {
+    display: none;
+  }
+}
+.legend-content {
+  list-style: none;
+  padding-left: 0;
+}
+/*# sourceMappingURL=data-graph.css.map */
