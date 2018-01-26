@@ -2225,7 +2225,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Explorer >= 9, Android >= 4.1, Opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 3 versions, Firefox ESR, Explorer >= 11",
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
